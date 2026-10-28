@@ -43,6 +43,11 @@ dt
 dt.info()
 ```
 <img width="338" height="322" alt="image" src="https://github.com/user-attachments/assets/2b438e5e-74a8-4f75-8974-2a8f7c18003b" />
+```
+dt.set_index("PassengerId",inplace=True)
+dt.describe()
+```
+<img width="827" height="446" alt="image" src="https://github.com/user-attachments/assets/79844fad-4ea2-436d-8408-df0f667ce283" />
 
 ```
 dt.shape
